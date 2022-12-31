@@ -1,6 +1,6 @@
 # Download PDFs from the web
 
-A simple api to download webpages as PDFs.
+Express API to download any webpage with a GET request
 
 ## Usage
 
