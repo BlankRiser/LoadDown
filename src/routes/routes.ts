@@ -5,7 +5,7 @@ const router = r.Router();
 
 router.use('/api/', pdfRoutes);
 router.use('/', (_req, res) => {
-    res.send('Go to /api?downloadPDF=<url> to download the PDF');
+    res.send('Add a query parameter `url=` with the website link like so <strong>/api?url=<url></strong> to download the PDF');
 });
 
 export const routes = router;
