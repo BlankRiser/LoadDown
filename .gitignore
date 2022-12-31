@@ -1,0 +1,8 @@
+node_modules
+.env
+.env.prod
+build
+certs/*
+old_tsconf.txt
+tsconfig.tsbuildinfo
+*.pem
