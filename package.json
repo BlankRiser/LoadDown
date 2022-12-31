@@ -8,7 +8,8 @@
         "lint": "eslint . -ext .ts",
         "lint-and-fix": "eslint . -ext .ts -fix",
         "ts:build:linux": "rm -rf ./build && tsc",
-        "build": "rimraf ./build && npx tsc",
+        "build:windows": "rimraf ./build && npx tsc",
+        "build": "rm -rf ./build && tsc",
         "dev": "nodemon src/app.ts",
         "start": "node build/app.js",
         "buld:start": "npm run build && node build/app.js"
